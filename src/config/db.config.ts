@@ -1,7 +1,6 @@
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { ConnectOptions } from 'mongoose';
-const faker = require('faker');
 import TripModel from '../models/trip.model';
 
 dotenv.config();
